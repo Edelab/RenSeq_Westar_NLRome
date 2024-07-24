@@ -1,5 +1,6 @@
 #download the Westar genome and annotation file from BNIR
 wget https://yanglab.hzau.edu.cn/static/bnir/assets//genomic_sequence/BnIRData/AACC.Brassica_napus/Westar/v0/Brassica_napus.Westar.v0.genome.fa.gz  
+
 wget https://yanglab.hzau.edu.cn/static/bnir/assets//genomic_sequence/BnIRData/AACC.Brassica_napus/Westar/v0/Brassica_napus.Westar.v0.gene.gff3.gz
 
 #using bwa-mem2 to map the Renseq reads on Westar genome
