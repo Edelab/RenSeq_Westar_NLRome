@@ -8,9 +8,9 @@ wget https://yanglab.hzau.edu.cn/static/bnir/assets//genomic_sequence/BnIRData/A
 ./bwa-mem2 index /path/to/Brassica_napus.Westar.v0.genome.fa.gz    
 ./bwa-mem2 mem -t 30 <prefix> <reads.fq/fa> > westar.sam    
 
-#use samtools to covert the sam file to bam file and sort
+#use samtools to covert the sam file to bam file and sort    
 samtools views -S path/to/westar.sam -b -o westar.bam  
-samtools sort westar.bam -@ 20 -o sorted.bam
+samtools sort westar.bam -@ 20 -o sorted.bam    
 
 #calculate the coverage of the renseq reads
 
