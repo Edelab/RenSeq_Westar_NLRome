@@ -1,1 +1,1 @@
-# Renseq_sequence_extraction
+# RenSeq_Westar_NLRome
