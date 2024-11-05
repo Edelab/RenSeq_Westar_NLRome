@@ -1,0 +1,3 @@
+#use NLRtracker to annotate NLRs from proteomes
+
+./path/to/NLRtracker/NLRtracker.sh -c 10 -s path/to/master_sequence_NLR.fasta -o ./
