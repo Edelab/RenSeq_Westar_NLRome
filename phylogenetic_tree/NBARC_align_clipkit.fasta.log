@@ -1,0 +1,660 @@
+IQ-TREE multicore version 2.1.3 COVID-edition for Linux 64-bit built Apr 21 2021
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    manitou (AVX2, FMA3, 1952 GB RAM)
+Command: iqtree2 -s NBARC_align_clipkit.fasta -m MFP -bb 1000 -bnni -redo -ntmax 30
+Seed:    845638 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Thu Nov  7 14:35:04 2024
+Kernel:  AVX+FMA - 1 threads (30 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 30 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file NBARC_align_clipkit.fasta ... Fasta format detected
+Alignment most likely contains protein sequences
+Alignment has 287 sequences with 394 columns, 394 distinct patterns
+389 parsimony-informative, 4 singleton sites, 0 constant sites
+                                        Gap/Ambiguity  Composition  p-value
+   1  westarv0_A02_nlr16_g15.t1                12.44%    passed     64.92%
+   2  BnaC06G0160900WE-westarv0_C06_nlr36_37   15.99%    passed     87.70%
+   3  BnaA08G0163900WE-westarv0_A08_nlr14      15.23%    passed     79.60%
+   4  westarv0_C07_nlr4_g3.t2                  25.13%    passed     98.31%
+   5  westarv0_C07_nlr23_24_g35.t1             21.32%    passed     99.77%
+   6  westarv0_A05_nlr17_18_g34.t2             11.42%    passed     96.85%
+   7  westarv0_A06_nlr21_22_g16.t1              8.63%    passed     85.43%
+   8  BnaC07G0471400WE-westarv0_C07_nlr28      17.51%    passed     82.68%
+   9  BnaC06G0477000WE-westarv0_C06_nlr20      17.77%    passed     99.55%
+  10  westarv0_A05_nlr7_8_9_10_g19.t2          51.78%    passed     69.53%
+  11  westarv0_A09_nlr55_g82.t1                17.01%    passed     89.32%
+  12  westarv0_C02_nlr35_g11.t2                41.12%    passed     96.34%
+  13  BnaC08G0268900WE_westarv0_C08_nlr26      20.05%    passed     94.26%
+  14  westarv0_A09_nlr5_6_g8.t1                16.75%    passed     52.29%
+  15  BnaA04G0156900WE-westarv0_A04_nlr5       16.50%    passed     54.87%
+  16  westarv0_A03_nlr16_17_g28.t1             13.20%    passed     99.02%
+  17  westarv0_C08_nlr35_36_g52.t1             26.65%    passed     98.08%
+  18  BnaC08G0269000WE-westarv0_C08_nlr8       18.78%    passed     90.88%
+  19  westarv0_C07_nlr21_g29.t1                 8.88%    passed     65.25%
+  20  westarv0_A04_nlr7_g3.t1                  16.24%    passed     50.91%
+  21  westarv0_C01_nlr15_g1.t1                 11.42%    passed     93.94%
+  22  westarv0_A09_nlr56_g84.t1                16.50%    passed     97.31%
+  23  BnaC08G0233600WE-westarv0_C08_nlr28      12.44%    passed     58.30%
+  24  BnaA05G0082900WE-westarv0_A05_nlr21      17.26%    passed     36.54%
+  25  westarv0_A06_nlr23_g23.t1                 8.63%    passed     85.87%
+  26  BnaC01G0194700WE-westarv0_C01_nlr20      17.77%    passed     83.95%
+  27  BnaC01G0098600WE-westarv0_C01_nlr1       12.94%    passed     80.73%
+  28  westarv0_C06_nlr23_g18.t2                14.47%    passed     41.17%
+  29  BnaC03G0413300WE-westarv0_C03_nlr39       8.63%    passed     37.07%
+  30  BnaC02G0392500WE-westarv0_C02_nlr18      16.50%    passed     83.48%
+  31  scaffold1888_nlr1_nlr2_g3.t1             31.98%    passed     75.82%
+  32  westarv0_A02_nlr29_g29.t1                17.01%    passed     97.09%
+  33  BnaC03G0028900WE-westarv0_C03_nlr47      11.93%    passed     35.78%
+  34  BnaA10G0275600WE                         22.08%    passed      7.64%
+  35  westarv0_C02_nlr39_g32.t1                12.94%    passed     93.08%
+  36  BnaC05G0204600WE-westarv0_C05_nlr16      11.42%    passed     21.37%
+  37  westarv0_C08_nlr3_g7.t1                  14.21%    passed     42.59%
+  38  BnaC02G0382100WE-westarv0_C02_nlr31      39.34%    passed     43.70%
+  39  westarv0_A03_nlr6_g14.t1                 16.50%    passed     73.02%
+  40  westarv0_C04_nlr27_g36.t1                70.05%    passed      9.37%
+  41  westarv0_A01_nlr16_g5.t1                 23.10%    passed     91.24%
+  42  westarv0_C02_nlr5_g7.t1                  30.46%    passed     99.33%
+  43  westarv0_A07_nlr13_g11.t1                16.75%    passed     91.56%
+  44  westarv0_A09_nlr39_g59.t1                18.27%    passed     83.72%
+  45  westarv0_A05_nlr13_g31.t1                19.54%    passed     59.12%
+  46  westarv0_C02_nlr4_48_g12.t1              32.99%    passed      5.28%
+  47  westarv0_C03_nlr4_5_g9.t1                41.62%    passed     64.06%
+  48  BnaC09G0149900WE-westarv0_C09_nlr9       15.99%    passed     82.12%
+  49  BnaC09G0463100WE-westarv0_C09_nlr50      71.07%    passed     43.30%
+  50  westarv0_C09_nlr29_g35.t1                41.88%    passed     82.86%
+  51  BnaA08G0212000WE                         12.44%    passed     33.29%
+  52  westarv0_A09_nlr3_4_g5.t1                31.98%    passed     78.21%
+  53  BnaC02G0392300WE-westarv0_C02_nlr17      20.56%    passed     88.74%
+  54  BnaC03G0603700WE-westarv0_C03_nlr29      20.81%    passed     76.89%
+  55  westarv0_A02_nlr2_g3.t1                  17.26%    passed     99.61%
+  56  westarv0_C04_nlr14_g18.t1                16.24%    passed     68.34%
+  57  BnaC02G0381800WE-westarv0_C02_nlr9       20.30%    passed     40.55%
+  58  BnaA05G0356700WE-westarv0_A05_nlr16      13.45%    passed     34.66%
+  59  westarv0_C02_nlr19_g23.t2                26.14%    passed     58.15%
+  60  westarv0_C07_nlr59_g8.t1                 53.81%    passed     86.92%
+  61  BnaC04G0389900WE-westarv0_C04_nlr10      20.05%    passed     91.76%
+  62  westarv0_C08_nlr11_g18.t1                34.52%    passed     90.28%
+  63  westarv0_C07_nlr34_g38.t1                15.48%    passed     85.26%
+  64  westarv0_C08_nlr38_g1.t1                 46.45%    passed     51.68%
+  65  BnaA09G0160700WE-westarv0_A09_nlr9       10.91%    passed     60.65%
+  66  westarv0_C01_nlr6_g5.t1                  24.11%    passed     83.00%
+  67  westarv0_C09_nlr48_g56.t2                41.62%    passed     68.39%
+  68  westarv0_A01_nlr9_g4.t1                  16.75%    passed     89.84%
+  69  westarv0_A06_nlr17_g1.t1                 13.71%    passed     26.43%
+  70  BnaC05G0432500WE-westarv0_C05_nlr14      14.47%    passed     66.94%
+  71  BnaC02G0075300WE-westarv0_C02_nlr3       17.51%    passed     14.73%
+  72  westarv0_C06_nlr35_g1.t1                 18.53%    passed     99.61%
+  73  BnaA06G0412900WE                         16.75%    passed     13.09%
+  74  BnaC09G0195900WE-westarv0_C09_nlr55       8.88%    passed     25.17%
+  75  westarv0_C06_nlr24_g20.t1                35.03%    passed     79.44%
+  76  westarv0_A06_nlr24_g33.t2                24.62%    passed     78.82%
+  77  BnaC04G0405600WE-westarv0_C04_nlr12      16.24%    passed     78.14%
+  78  BnaC07G0301300WE                         17.01%    passed     31.54%
+  79  BnaC03G0401700WE-westarv0_C03_nlr8       16.24%    passed     85.46%
+  80  westarv0_C08_nlr12_g20.t1                34.52%    passed     90.28%
+  81  BnaC09G0164000WE-westarv0_C09_nlr11      26.90%    passed     92.35%
+  82  BnaC06G0355100WE-westarv0_C06_nlr25      16.75%    passed     96.87%
+  83  BnaC06G0464200WE-westarv0_C06_nlr22      14.47%    passed     96.16%
+  84  westarv0_A03_nlr20_g34.t1                17.51%    passed     54.49%
+  85  BnaC09G0454900WE-westarv0_C09_nlr33      43.15%    passed     58.15%
+  86  BnaC07G0384200WE-westarv0_C07_nlr35      11.68%    passed     57.31%
+  87  westarv0_A04_nlr2_3_g1.t2                16.50%    passed     98.72%
+  88  scaffold286_nlr1_2_3_g11.t1              15.23%    passed     88.36%
+  89  westarv0_C03_nlr13_g10.t1                18.53%    passed     71.44%
+  90  BnaA09G0444300WE-westarv0_A09_nlr26      11.17%    passed     72.58%
+  91  BnaC03G0617900WE-westarv0_C03_nlr17      34.26%    passed     91.66%
+  92  westarv0_C02_nlr2_g4.t1                  16.24%    passed     70.49%
+  93  BnaC07G0301400WE                         15.74%    passed     33.20%
+  94  BnaA02G0288700WE-westarv0_A02_nlr27      20.30%    passed     76.17%
+  95  westarv0_C07_nlr2_g3.t1                  18.27%    passed     98.42%
+  96  BnaC01G0409000WE-westarv0_C01_nlr13      15.99%    passed     88.91%
+  97  BnaA06G0160300WE-westarv0_A06_nlr27      18.27%    passed     92.65%
+  98  westarv0_C07_nlr42_43_44_g41.t1          39.85%    passed     91.71%
+  99  BnaA03G0270000WE-westarv0_A03_nlr25      14.72%    passed     85.20%
+ 100  BnaA03G0311900WE-westarv0_A03_nlr21      16.75%    passed     91.73%
+ 101  westarv0_A01_nlr11_g8.t1                 15.99%    passed     82.33%
+ 102  westarv0_A03_nlr29_30_g48.t1             11.17%    passed     99.77%
+ 103  westarv0_C02_nlr42_43_g36.t1             12.44%    passed     98.19%
+ 104  westarv0_C07_nlr3_g1.t1                  29.19%    passed     98.27%
+ 105  BnaC02G0207400WE-westarv0_C02_nlr37      12.69%    passed     79.42%
+ 106  westarv0_A09_nlr58_g87.t1                11.93%    passed     28.76%
+ 107  westarv0_A05_nlr17_18_g33.t1             11.93%    passed     89.27%
+ 108  westarv0_C09_nlr2_g4.t1                  16.24%    passed     77.92%
+ 109  westarv0_A02_nlr22_g25.t1                 9.14%    passed     16.74%
+ 110  westarv0_A10_nlr5_g4.t2                  15.74%    passed     97.63%
+ 111  BnaA08G0124700WE                         15.74%    passed     19.57%
+ 112  BnaC09G0455400WE-westarv0_C09_nlr37      16.24%    passed     84.50%
+ 113  westarv0_C06_nlr5_g8.t1                  13.71%    passed     99.45%
+ 114  BnaA05G0356600WE-westarv0_A05_nlr19      14.72%    passed     78.32%
+ 115  BnaA03G0460700WE-westarv0_A03_nlr15      17.26%    passed     76.34%
+ 116  BnaA08G0026300WE-westarv0_A08_nlr16       8.38%    passed     32.61%
+ 117  westarv0_A02_nlr23_g26.t1                15.48%    passed     29.36%
+ 118  BnaC09G0149500WE-westarv0_C09_nlr7       32.49%    passed     73.01%
+ 119  BnaA09G0232900WE-westarv0_A09_nlr43      14.72%    passed     30.75%
+ 120  westarv0_C09_nlr54_g66.t1                17.01%    passed     58.88%
+ 121  BnaC02G0042600WE-westarv0_C02_nlr49      18.53%    passed     98.74%
+ 122  BnaA03G0063300WE-westarv0_A03_nlr28      11.42%    passed     98.03%
+ 123  BnaC07G0471300WE-westarv0_C07_nlr29      14.72%    passed     67.37%
+ 124  BnaC02G0382500WE-westarv0_C02_nlr28_29   39.85%    passed     29.04%
+ 125  westarv0_C05_nlr8_9_10_g5.t1             11.42%    passed     97.05%
+ 126  westarv0_A05_nlr7_8_9_10_g16.t1          10.15%    passed     27.30%
+ 127  BnaC03G0618400WE-westarv0_C03_nlr19      18.53%    passed     67.73%
+ 128  westarv0_A02_nlr25_g27.t1                17.01%    passed     83.33%
+ 129  westarv0_A05_nlr5_6_g9.t2                 8.38%    passed     27.76%
+ 130  westarv0_A03_nlr29_30_g49.t1             11.42%    passed     97.33%
+ 131  westarv0_C01_nlr11_g11.t1                57.61%    passed     46.58%
+ 132  westarv0_A10_nlr7_g10.t1                 17.26%    passed     84.36%
+ 133  BnaC03G0628500WE-westarv0_C03_nlr24      13.96%    passed     97.75%
+ 134  westarv0_A01_nlr4_5_6_g1.t1              15.99%    passed     49.43%
+ 135  westarv0_A02_nlr9_10_g7.t1               15.99%    passed     80.82%
+ 136  BnaC06G0329600WE-westarv0_C06_nlr26      53.81%    passed     82.23%
+ 137  BnaC03G0678400WE-westarv0_C03_nlr23       8.38%    passed     71.79%
+ 138  BnaC02G0392200WE-westarv0_C02_nlr16      23.10%    passed     86.15%
+ 139  westarv0_A03_nlr5_g11.t1                 19.04%    passed     80.82%
+ 140  westarv0_A07_nlr14_g13.t2                14.97%    passed     88.94%
+ 141  BnaA09G0159600WE-westarv0_A09_nlr8       15.99%    passed     25.27%
+ 142  westarv0_A03_nlr26_g41.t1                21.07%    passed     91.17%
+ 143  westarv0_A03_nlr31_32_g53.t1             11.17%    passed     99.77%
+ 144  westarv0_C01_nlr22_g15.t1                24.87%    passed     60.48%
+ 145  westarv0_A09_nlr5_6_g9.t1                17.26%    passed     76.71%
+ 146  westarv0_A03_nlr27_g43.t1                39.85%    passed     55.31%
+ 147  westarv0_A07_nlr8_g5.t1                  16.75%    passed     96.26%
+ 148  westarv0_C03_nlr32_33_34_g31.t1          16.50%    passed     71.80%
+ 149  westarv0_A07_nlr9_g9.t1                  11.42%    passed     95.35%
+ 150  westarv0_C03_nlr41_g37.t1                17.26%    passed     64.58%
+ 151  westarv0_A10_nlr4_g3.t1                  16.50%    passed     72.03%
+ 152  BnaC02G0536100WE                         13.96%    failed      1.78%
+ 153  westarv0_A03_nlr18_g31.t1                 8.63%    passed     45.59%
+ 154  BnaC05G0432600WE_westarv0_C05_nlr7       13.45%    passed     35.24%
+ 155  westarv0_C03_nlr15_16_g12.t2             18.27%    passed     89.53%
+ 156  scaffold1888_nlr1_nlr2_g2.t1             47.97%    passed     60.12%
+ 157  westarv0_C02_nlr30_g27.t2                57.11%    passed     57.57%
+ 158  westarv0_C02_nlr22_g9.t1                 15.48%    passed     21.45%
+ 159  BnaC08G0144200WE-westarv0_C08_nlr4       61.68%    passed     22.57%
+ 160  BnaC09G0188000WE-westarv0_C09_nlr20      15.99%    passed     98.68%
+ 161  BnaC01G0435900WE-westarv0_C01_nlr17       8.88%    failed      0.50%
+ 162  westarv0_C01_nlr2_3_g2.t3                18.02%    passed     61.72%
+ 163  BnaA05G0131400WE-westarv0_A05_nlr20      48.48%    passed     44.86%
+ 164  BnaA07G0138200WE                         24.11%    failed      4.82%
+ 165  westarv0_A09_nlr22_g31.t1                18.27%    passed     85.54%
+ 166  westarv0_A09_nlr10_g11.t1                10.15%    passed     73.00%
+ 167  westarv0_A09_nlr41_g68.t1                28.93%    passed     98.83%
+ 168  BnaA01G0314100WE-westarv0_A01_nlr12      15.99%    passed     91.53%
+ 169  westarv0_C03_nlr7_g10.t2                 62.18%    passed     99.56%
+ 170  BnaC03G0618300WE-westarv0_C03_nlr18      17.26%    passed     22.34%
+ 171  westarv0_A03_nlr2_g5.t1                  16.24%    passed     95.50%
+ 172  BnaC05G0204700WE-westarv0_C05_nlr15      12.18%    passed     72.59%
+ 173  BnaC02G0468900WE-westarv0_C02_nlr23      18.27%    passed     50.65%
+ 174  BnaC09G0165700WE-westarv0_C09_nlr59      15.74%    passed     90.91%
+ 175  westarv0_A08_nlr3_4_g3.t1                23.86%    passed     99.37%
+ 176  westarv0_C03_nlr45_46_g44.t1             17.01%    passed     97.25%
+ 177  westarv0_C02_nlr40_g33.t1                62.94%    passed     22.27%
+ 178  westarv0_C03_nlr42_g40.t1                16.75%    passed     93.97%
+ 179  BnaC01G0265000WE-westarv0_C01_nlr18       8.88%    passed     73.88%
+ 180  BnaC01G0031100WE                         15.74%    passed     44.02%
+ 181  westarv0_C09_nlr14_g11.t1                17.51%    passed     72.43%
+ 182  BnaC09G0266300WE-westarv0_C09_nlr53      13.96%    passed     86.48%
+ 183  westarv0_C04_nlr2_3_g6.t1                25.38%    passed      6.13%
+ 184  westarv0_A04_nlr2_3_g2.t1                24.87%    passed     97.92%
+ 185  BnaC03G0653400WE                         15.74%    passed     30.34%
+ 186  BnaA09G0418000WE-westarv0_A09_nlr24      12.18%    passed     11.91%
+ 187  BnaC07G0375500WE-westarv0_C07_nlr22      15.48%    passed     90.48%
+ 188  BnaC03G0239800WE-westarv0_C03_nlr43      36.29%    passed     38.93%
+ 189  BnaC09G0455100WE-westarv0_C09_nlr35      16.24%    passed     84.50%
+ 190  westarv0_A03_nlr12_g22.t1                15.74%    passed     81.98%
+ 191  westarv0_A02_nlr1_g1.t1                  12.18%    passed     87.05%
+ 192  BnaA08G0238000WE-westarv0_A08_nlr13      13.96%    passed     37.66%
+ 193  BnaC09G0164600WE-westarv0_C09_nlr13      16.75%    passed     36.65%
+ 194  westarv0_C03_nlr28_g14.t1                17.51%    passed     16.15%
+ 195  BnaA08G0164000WE-westarv0_A08_nlr2       15.74%    passed     95.19%
+ 196  westarv0_A03_nlr7_g15.t1                  8.38%    passed     73.16%
+ 197  westarv0_C03_nlr30_g25.t1                17.26%    passed     79.76%
+ 198  BnaA03G0460800WE-westarv0_A03_nlr8       14.47%    passed     27.85%
+ 199  BnaA05G0082800WE-westarv0_A05_nlr22      26.65%    passed     71.05%
+ 200  BnaC02G0375400WE-westarv0_C02_nlr34      38.32%    passed     93.15%
+ 201  westarv0_A02_nlr15_g14.t1                17.01%    passed     93.53%
+ 202  BnaC05G0462700WE-westarv0_C05_nlr13      15.74%    passed     94.66%
+ 203  westarv0_A02_nlr6_g2.t1                  27.41%    passed     99.61%
+ 204  BnaC09G0570300WE                         22.08%    passed      8.86%
+ 205  BnaC07G0375400WE-westarv0_C07_nlr38      17.26%    passed     75.02%
+ 206  westarv0_C09_nlr66_g82.t1                48.48%    passed     12.77%
+ 207  BnaA09G0417900WE-westarv0_A09_nlr23      11.93%    passed     39.40%
+ 208  BnaC06G0474600WE-westarv0_C06_nlr21      13.96%    passed     79.00%
+ 209  westarv0_A04_nlr4_g2.t1                  16.75%    passed     82.76%
+ 210  westarv0_A02_nlr21_g24.t1                10.15%    passed     11.05%
+ 211  BnaC08G0263400WE-westarv0_C08_nlr7       11.17%    passed     72.27%
+ 212  westarv0_A03_nlr22_g36.t1                17.77%    passed     94.40%
+ 213  westarv0_C03_nlr4_5_g8.t1                42.39%    passed     28.80%
+ 214  BnaC07G0375800WE-westarv0_C07_nlr37      17.26%    passed     37.38%
+ 215  westarv0_C09_nlr26_g28.t1                37.56%    passed     48.44%
+ 216  BnaA09G0087100WE-westarv0_A09_nlr1       17.77%    passed     20.94%
+ 217  westarv0_A08_nlr6_g8.t2                  15.99%    passed     92.22%
+ 218  westarv0_C05_nlr8_9_10_g3.t1             11.93%    passed     96.29%
+ 219  BnaC09G0266400WE-westarv0_C09_nlr30      18.27%    passed     78.62%
+ 220  westarv0_A03_nlr13_14_g25.t1             11.68%    passed     58.82%
+ 221  westarv0_C09_nlr22_g15.t1                16.50%    passed     40.41%
+ 222  westarv0_A08_nlr1_g1.t1                  15.99%    passed     99.43%
+ 223  BnaA01G0023300WE-westarv0_A01_nlr1       12.94%    passed     76.18%
+ 224  scaffold2113_nlr1_g4.t1                  45.18%    passed     76.02%
+ 225  westarv0_A09_nlr12_g15.t1                24.87%    passed     98.53%
+ 226  westarv0_A02_nlr12_g11.t2                18.27%    passed     87.41%
+ 227  BnaC07G0234000WE-westarv0_C07_nlr53      40.10%    passed     56.91%
+ 228  BnaC07G0196800WE-westarv0_C07_nlr55      25.38%    passed     45.78%
+ 229  westarv0_A02_nlr30_31_32_33_g37.t2       16.50%    passed     76.73%
+ 230  BnaC02G0395200WE-westarv0_C02_nlr27      17.26%    passed     94.95%
+ 231  westarv0_C02_nlr42_43_g38.t1             16.24%    passed     94.09%
+ 232  BnaC01G0234800WE-westarv0_C01_nlr8       17.77%    passed     42.85%
+ 233  westarv0_C02_nlr45_46_47_g44.t1          16.50%    passed     68.06%
+ 234  westarv0_C08_nlr21_22_23_g38.t1          18.02%    passed     73.44%
+ 235  westarv0_A03_nlr4_g8.t1                  16.24%    passed     99.76%
+ 236  BnaC09G0455800WE-westarv0_C09_nlr39      17.26%    passed     92.67%
+ 237  westarv0_C03_nlr44_g41.t1                33.50%    passed     80.56%
+ 238  westarv0_A07_nlr2_g4.t1                  14.21%    passed     98.30%
+ 239  westarv0_C02_nlr36_g29.t1                52.03%    passed     92.35%
+ 240  BnaA02G0288500WE-westarv0_A02_nlr8       20.05%    passed     36.54%
+ 241  westarv0_A03_nlr31_32_g54.t1             11.42%    passed     98.03%
+ 242  westarv0_A03_nlr11_g20.t1                17.26%    passed     94.13%
+ 243  BnaC04G0246800WE-westarv0_C04_nlr8       16.50%    passed     94.65%
+ 244  BnaA02G0288400WE-westarv0_A02_nlr28      20.05%    passed     30.93%
+ 245  westarv0_C02_nlr6_g14.t2                 39.59%    passed     99.67%
+ 246  westarv0_A03_nlr23_24_g38.t1             17.01%    passed     97.58%
+ 247  westarv0_C09_nlr21_g21.t1                16.75%    passed     25.34%
+ 248  BnaC08G0244300WE-westarv0_C08_nlr5       17.01%    passed     45.68%
+ 249  BnaC06G0466300WE-westarv0_C06_nlr19      17.77%    passed     98.05%
+ 250  BnaA01G0185900WE-westarv0_A01_nlr15       8.88%    passed     80.09%
+ 251  BnaC09G0105400WE-westarv0_C09_nlr5       15.48%    passed     47.72%
+ 252  westarv0_C09_nlr8_g12.t1                 29.44%    passed     70.66%
+ 253  BnaA09G0230700WE-westarv0_A09_nlr19      23.35%    passed     96.17%
+ 254  westarv0_A08_nlr3_4_g4.t1                16.50%    passed     66.94%
+ 255  BnaC02G0498700WE-westarv0_C02_nlr21      12.94%    passed     34.67%
+ 256  BnaC02G0381700WE-westarv0_C02_nlr33      36.29%    passed      6.66%
+ 257  westarv0_C09_nlr47_g17.t1                29.44%    passed     86.94%
+ 258  BnaC07G0207100WE-westarv0_C07_nlr10      58.38%    passed     51.98%
+ 259  BnaC08G0322700WE_westarv0_C08_nlr25      18.27%    passed     97.17%
+ 260  BnaC01G0234700WE-westarv0_C01_nlr7       18.02%    passed      9.58%
+ 261  westarv0_C06_nlr11_g17.t1                14.21%    passed     99.90%
+ 262  westarv0_C07_nlr30_g36.t1                17.26%    passed     91.39%
+ 263  westarv0_C09_nlr51_g64.t1                45.18%    passed     76.02%
+ 264  westarv0_C06_nlr10_g3.t1                 14.21%    passed     96.08%
+ 265  westarv0_A03_nlr16_17_g29.t1             19.04%    passed     99.93%
+ 266  BnaA02G0070600WE-westarv0_A02_nlr34      14.72%    passed     24.33%
+ 267  scaffold286_nlr1_2_3_g10.t1              16.75%    passed     86.76%
+ 268  westarv0_C08_nlr9_10_g10.t2              90.86%    passed     97.42%
+ 269  BnaC07G0234300WE-westarv0_C07_nlr51_52   38.32%    passed     14.99%
+ 270  westarv0_A03_nlr1_g2.t1                  16.24%    passed     95.50%
+ 271  westarv0_C08_nlr37_g57.t2                32.49%    passed     99.33%
+ 272  BnaC07G0376100WE-westarv0_C07_nlr36      20.56%    passed     93.65%
+ 273  westarv0_A03_nlr13_14_g24.t1             12.94%    passed     81.93%
+ 274  westarv0_A09_nlr18_g23.t1                17.51%    passed     52.64%
+ 275  BnaA04G0118600WE-westarv0_A04_nlr1       16.24%    passed     93.46%
+ 276  BnaA07G0138100WE                         28.68%    passed     69.21%
+ 277  westarv0_C09_nlr49_g59.t1                17.26%    passed     72.94%
+ 278  BnaA09G0232800WE-westarv0_A09_nlr44      13.96%    passed     86.23%
+ 279  westarv0_C09_nlr3_g6.t1                  23.86%    passed      8.00%
+ 280  westarv0_C03_nlr12_g11.t1                16.50%    passed     20.71%
+ 281  BnaC09G0163900WE-westarv0_C09_nlr10      15.23%    passed     88.06%
+ 282  westarv0_C09_nlr44_g53.t1                28.68%    passed     66.90%
+ 283  westarv0_A08_nlr15_g22.t1                16.24%    passed     98.81%
+ 284  BnaC01G0421100WE-westarv0_C01_nlr14       8.88%    failed      1.33%
+ 285  westarv0_A02_nlr3_g5.t1                  41.37%    passed     75.99%
+ 286  BnaC04G0154100WE-westarv0_C04_nlr5_6     16.50%    passed     99.73%
+ 287  BnaA04G0104400WE-westarv0_A04_nlr8_9     17.01%    passed     96.19%
+WARNING: 13 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                    21.27%  4 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: westarv0_C08_nlr12_g20.t1 is identical to westarv0_C08_nlr11_g18.t1 but kept for subsequent analysis
+NOTE: BnaC09G0455100WE-westarv0_C09_nlr35 is identical to BnaC09G0455400WE-westarv0_C09_nlr37 but kept for subsequent analysis
+NOTE: westarv0_A03_nlr31_32_g54.t1 is identical to BnaA03G0063300WE-westarv0_A03_nlr28 but kept for subsequent analysis
+NOTE: westarv0_A03_nlr1_g2.t1 is identical to westarv0_A03_nlr2_g5.t1 but kept for subsequent analysis
+NOTE: westarv0_C09_nlr51_g64.t1 is identical to scaffold2113_nlr1_g4.t1 but kept for subsequent analysis
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.166 seconds
+Perform fast likelihood tree search using LG+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -88301.674
+Optimal log-likelihood: -88301.624
+Proportion of invariable sites: 0.000
+Gamma shape alpha: 2.044
+Parameters optimization took 1 rounds (0.927 sec)
+Time for fast ML tree search: 13.250 seconds
+
+NOTE: ModelFinder requires 186 MB RAM!
+ModelFinder will test up to 702 protein models (sample size: 394) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  LG            90749.949    571 182641.898   835865.898   184912.394
+  2  LG+I          90742.869    572 182629.738   838141.738   184904.211
+  3  LG+G4         88301.604    572 177747.208   833259.208   180021.680
+  4  LG+I+G4       88301.600    573 177749.200   835553.200   180027.649
+  5  LG+R2         88709.867    573 178565.734   836369.734   180844.183
+  6  LG+R3         88361.288    575 177872.575   840272.575   180158.977
+  7  LG+R4         88243.722    577 177641.444   844653.444   179935.799
+  8  LG+R5         88191.021    579 177540.042   849180.042   179842.349
+  9  LG+R6         88167.145    581 177496.289   853780.289   179806.549
+ 10  LG+R7         88150.920    583 177467.840   858411.840   179786.052
+ 11  LG+R8         88144.024    585 177458.048   863078.048   179784.213
+ 12  LG+R9         88141.919    587 177457.839   867769.839   179791.957
+ 23  LG+F+R7       87835.580    602 176875.161   902887.161   179268.924
+ 24  LG+F+R8       87828.132    604 176864.263   907704.263   179265.979
+ 25  LG+F+R9       87822.996    606 176857.991   912541.991   179267.660
+ 36  WAG+R7        87574.667    583 176315.335   857259.335   178633.547
+ 37  WAG+R8        87562.218    585 176294.436   861914.436   178620.601
+ 38  WAG+R9        87561.067    587 176296.134   866608.134   178630.252
+ 49  WAG+F+R7      87232.842    602 175669.684   901681.684   178063.447
+ 50  WAG+F+R8      87221.946    604 175651.892   906491.892   178053.608
+ 51  WAG+F+R9      87221.106    606 175654.212   911338.212   178063.881
+ 62  JTT+R7        86935.906    583 175037.813   855981.813   177356.025
+ 63  JTT+R8        86921.814    585 175013.628   860633.628   177339.794
+ 64  JTT+R9        86919.747    587 175013.494   865325.494   177347.612
+ 75  JTT+F+R7      86556.579    602 174317.159   900329.159   176710.922
+ 76  JTT+F+R8      86541.202    604 174290.403   905130.403   176692.119
+ 77  JTT+F+R9      86539.902    606 174291.804   909975.804   176701.473
+ 88  Q.pfam+R7     88073.798    583 177313.596   858257.596   179631.808
+ 89  Q.pfam+R8     88063.998    585 177297.996   862917.996   179624.161
+WARNING: Log-likelihood -88066.4 of Q.pfam+R9 worse than Q.pfam+R8 -88064
+ 90  Q.pfam+R9     88066.356    587 177306.711   867618.711   179640.829
+101  Q.pfam+F+R7   87674.715    602 176553.430   902565.430   178947.193
+102  Q.pfam+F+R8   87664.286    604 176536.572   907376.572   178938.288
+103  Q.pfam+F+R9   87659.996    606 176531.993   912215.993   178941.661
+114  Q.bird+R7     87172.924    583 175511.847   856455.847   177830.060
+115  Q.bird+R8     87161.322    585 175492.644   861112.644   177818.809
+116  Q.bird+R9     87158.156    587 175490.313   865802.313   177824.431
+127  Q.bird+F+R7   86901.882    602 175007.763   901019.763   177401.526
+128  Q.bird+F+R8   86892.291    604 174992.583   905832.583   177394.299
+129  Q.bird+F+R9   86886.897    606 174985.794   910669.794   177395.463
+140  Q.mammal+R7   87006.598    583 175179.195   856123.195   177497.408
+141  Q.mammal+R8   86993.514    585 175157.028   860777.028   177483.193
+142  Q.mammal+R9   86992.661    587 175159.323   865471.323   177493.441
+153  Q.mammal+F+R7 86694.844    602 174593.688   900605.688   176987.452
+154  Q.mammal+F+R8 86684.661    604 174577.322   905417.322   176979.038
+155  Q.mammal+F+R9 86681.832    606 174575.664   910259.664   176985.333
+166  Q.insect+R7   88089.945    583 177345.890   858289.890   179664.102
+167  Q.insect+R8   88078.407    585 177326.814   862946.814   179652.979
+168  Q.insect+R9   88078.450    587 177330.900   867642.900   179665.018
+179  Q.insect+F+R7 87907.758    602 177019.517   903031.517   179413.280
+180  Q.insect+F+R8 87895.517    604 176999.033   907839.033   179400.749
+181  Q.insect+F+R9 87894.579    606 177001.157   912685.157   179410.826
+192  Q.plant+R7    87089.936    583 175345.871   856289.871   177664.084
+193  Q.plant+R8    87080.189    585 175330.379   860950.379   177656.544
+194  Q.plant+R9    87078.784    587 175331.568   865643.568   177665.686
+205  Q.plant+F+R7  86919.042    602 175042.085   901054.085   177435.848
+206  Q.plant+F+R8  86909.644    604 175027.287   905867.287   177429.003
+207  Q.plant+F+R9  86908.408    606 175028.816   910712.816   177438.484
+218  Q.yeast+R7    88491.526    583 178149.052   859093.052   180467.264
+219  Q.yeast+R8    88481.872    585 178133.744   863753.744   180459.909
+220  Q.yeast+R9    88477.881    587 178129.762   868441.762   180463.880
+231  Q.yeast+F+R7  88004.528    602 177213.055   903225.055   179606.818
+232  Q.yeast+F+R8  87991.240    604 177190.480   908030.480   179592.196
+233  Q.yeast+F+R9  87991.062    606 177194.123   912878.123   179603.792
+244  JTTDCMut+R7   86966.878    583 175099.756   856043.756   177417.969
+245  JTTDCMut+R8   86952.698    585 175075.396   860695.396   177401.561
+246  JTTDCMut+R9   86950.906    587 175075.811   865387.811   177409.929
+257  JTTDCMut+F+R7 86598.068    602 174400.136   900412.136   176793.900
+258  JTTDCMut+F+R8 86582.972    604 174373.943   905213.943   176775.659
+259  JTTDCMut+F+R9 86581.813    606 174375.626   910059.626   176785.295
+270  DCMut+R7      89597.949    583 180361.899   861305.899   182680.111
+271  DCMut+R8      89581.099    585 180332.198   865952.198   182658.364
+272  DCMut+R9      89579.022    587 180332.043   870644.043   182666.161
+283  DCMut+F+R7    89141.329    602 179486.659   905498.659   181880.422
+284  DCMut+F+R8    89125.141    604 179458.282   910298.282   181859.998
+285  DCMut+F+R9    89123.693    606 179459.387   915143.387   181869.055
+296  VT+R7         87667.324    583 176500.647   857444.647   178818.860
+297  VT+R8         87652.246    585 176474.491   862094.491   178800.657
+298  VT+R9         87650.850    587 176475.699   866787.699   178809.817
+309  VT+F+R7       87302.254    602 175808.508   901820.508   178202.271
+310  VT+F+R8       87287.833    604 175783.665   906623.665   178185.381
+311  VT+F+R9       87286.658    606 175785.317   911469.317   178194.985
+322  PMB+R7        88622.868    583 178411.736   859355.736   180729.949
+323  PMB+R8        88607.615    585 178385.229   864005.229   180711.394
+324  PMB+R9        88606.751    587 178387.503   868699.503   180721.621
+335  PMB+F+R7      88559.067    602 178322.134   904334.134   180715.897
+336  PMB+F+R8      88543.891    604 178295.781   909135.781   180697.497
+337  PMB+F+R9      88543.076    606 178298.153   913982.153   180707.821
+348  Blosum62+R7   88810.329    583 178786.658   859730.658   181104.870
+349  Blosum62+R8   88796.521    585 178763.041   864383.041   181089.206
+350  Blosum62+R9   88795.270    587 178764.539   869076.539   181098.657
+361  Blosum62+F+R7 88731.001    602 178666.002   904678.002   181059.766
+362  Blosum62+F+R8 88717.380    604 178642.760   909482.760   181044.476
+363  Blosum62+F+R9 88716.239    606 178644.479   914328.479   181054.147
+374  Dayhoff+R7    89598.546    583 180363.092   861307.092   182681.305
+375  Dayhoff+R8    89581.869    585 180333.738   865953.738   182659.903
+376  Dayhoff+R9    89579.777    587 180333.554   870645.554   182667.672
+387  Dayhoff+F+R7  89142.925    602 179489.851   905501.851   181883.614
+388  Dayhoff+F+R8  89126.675    604 179461.349   910301.349   181863.065
+389  Dayhoff+F+R9  89125.194    606 179462.388   915146.388   181872.057
+400  mtREV+R7      92657.687    583 186481.374   867425.374   188799.586
+401  mtREV+R8      92649.929    585 186469.857   872089.857   188796.022
+402  mtREV+R9      92647.975    587 186469.951   876781.951   188804.069
+413  mtREV+F+R7    88691.408    602 178586.815   904598.815   180980.579
+414  mtREV+F+R8    88682.748    604 178573.496   909413.496   180975.212
+415  mtREV+F+R9    88677.622    606 178567.244   914251.244   180976.913
+426  mtART+R7      95928.733    583 193023.466   873967.466   195341.679
+427  mtART+R8      95916.708    585 193003.415   878623.415   195329.581
+428  mtART+R9      95905.322    587 192984.643   883296.643   195318.761
+439  mtART+F+R7    92368.323    602 185940.645   911952.645   188334.409
+440  mtART+F+R8    92359.396    604 185926.792   916766.792   188328.508
+441  mtART+F+R9    92355.499    606 185922.998   921606.998   188332.667
+452  mtZOA+R7      92658.524    583 186483.049   867427.049   188801.261
+453  mtZOA+R8      92644.535    585 186459.070   872079.070   188785.236
+NOTE: 5.948 seconds to dump checkpoint file, increase to 119.000
+454  mtZOA+R9      92639.810    587 186453.620   876765.620   188787.738
+465  mtZOA+F+R7    90050.473    602 181304.946   907316.946   183698.709
+466  mtZOA+F+R8    90042.935    604 181293.871   912133.871   183695.586
+WARNING: Log-likelihood -90057.2 of mtZOA+F+R9 worse than mtZOA+F+R8 -90042.9
+467  mtZOA+F+R9    90057.162    606 181326.324   917010.324   183735.993
+478  mtMet+R7      91391.793    583 183949.586   864893.586   186267.798
+479  mtMet+R8      91356.575    585 183883.151   869503.151   186209.316
+WARNING: Log-likelihood -91370.8 of mtMet+R9 worse than mtMet+R8 -91356.6
+480  mtMet+R9      91370.829    587 183915.657   874227.657   186249.775
+491  mtMet+F+R7    88096.710    602 177397.420   903409.420   179791.183
+492  mtMet+F+R8    88084.604    604 177377.209   908217.209   179778.925
+WARNING: Log-likelihood -88096.8 of mtMet+F+R9 worse than mtMet+F+R8 -88084.6
+493  mtMet+F+R9    88096.755    606 177405.511   913089.511   179815.179
+504  mtVer+R7      92113.719    583 185393.437   866337.437   187711.650
+505  mtVer+R8      92100.886    585 185371.772   870991.772   187697.938
+WARNING: Log-likelihood -92134.7 of mtVer+R9 worse than mtVer+R8 -92100.9
+506  mtVer+R9      92134.672    587 185443.343   875755.343   187777.461
+517  mtVer+F+R7    88605.688    602 178415.377   904427.377   180809.140
+518  mtVer+F+R8    88592.491    604 178392.982   909232.982   180794.698
+519  mtVer+F+R9    88585.422    606 178382.845   914066.845   180792.513
+530  mtInv+R7      91916.251    583 184998.502   865942.502   187316.714
+531  mtInv+R8      91902.733    585 184975.467   870595.467   187301.632
+WARNING: Log-likelihood -91921.2 of mtInv+R9 worse than mtInv+R8 -91902.7
+532  mtInv+R9      91921.171    587 185016.343   875328.343   187350.461
+543  mtInv+F+R7    88226.775    602 177657.550   903669.550   180051.313
+544  mtInv+F+R8    88212.323    604 177632.646   908472.646   180034.362
+WARNING: Log-likelihood -88222.9 of mtInv+F+R9 worse than mtInv+F+R8 -88212.3
+545  mtInv+F+R9    88222.945    606 177657.891   913341.891   180067.560
+556  mtMAM+R7      94485.464    583 190136.928   871080.928   192455.140
+557  mtMAM+R8      94470.514    585 190111.029   875731.029   192437.194
+558  mtMAM+R9      94468.809    587 190111.618   880423.618   192445.736
+569  mtMAM+F+R7    90483.637    602 182171.275   908183.275   184565.038
+570  mtMAM+F+R8    90479.261    604 182166.522   913006.522   184568.238
+582  HIVb+R7       87657.919    583 176481.838   857425.838   178800.051
+583  HIVb+R8       87644.605    585 176459.210   862079.210   178785.376
+584  HIVb+R9       87643.743    587 176461.485   866773.485   178795.603
+595  HIVb+F+R7     87230.526    602 175665.051   901677.051   178058.815
+596  HIVb+F+R8     87220.381    604 175648.762   906488.762   178050.478
+597  HIVb+F+R9     87216.122    606 175644.245   911328.245   178053.913
+608  HIVw+R7       90080.920    583 181327.840   862271.840   183646.053
+609  HIVw+R8       90062.098    585 181294.196   866914.196   183620.361
+610  HIVw+R9       90058.576    587 181291.152   871603.152   183625.270
+621  HIVw+F+R7     88679.690    602 178563.379   904575.379   180957.142
+622  HIVw+F+R8     88658.675    604 178525.351   909365.351   180927.067
+623  HIVw+F+R9     88654.614    606 178521.229   914205.229   180930.897
+634  FLU+R7        88467.630    583 178101.259   859045.259   180419.472
+635  FLU+R8        88449.721    585 178069.442   863689.442   180395.607
+636  FLU+R9        88448.665    587 178071.330   868383.330   180405.448
+647  FLU+F+R7      88234.619    602 177673.238   903685.238   180067.002
+648  FLU+F+R8      88217.306    604 177642.612   908482.612   180044.328
+WARNING: Log-likelihood -88229.8 of FLU+F+R9 worse than FLU+F+R8 -88217.3
+649  FLU+F+R9      88229.777    606 177671.554   913355.554   180081.223
+660  rtREV+R7      89626.821    583 180419.642   861363.642   182737.854
+661  rtREV+R8      89619.063    585 180408.126   866028.126   182734.291
+WARNING: Log-likelihood -89620.4 of rtREV+R9 worse than rtREV+R8 -89619.1
+662  rtREV+R9      89620.440    587 180414.880   870726.880   182748.998
+673  rtREV+F+R7    88859.731    602 178923.462   904935.462   181317.226
+674  rtREV+F+R8    88849.345    604 178906.690   909746.690   181308.406
+675  rtREV+F+R9    88849.003    606 178910.006   914594.006   181319.674
+686  cpREV+R7      87619.590    583 176405.180   857349.180   178723.393
+687  cpREV+R8      87603.829    585 176377.659   861997.659   178703.824
+688  cpREV+R9      87603.177    587 176380.354   866692.354   178714.472
+699  cpREV+F+R7    87485.697    602 176175.394   902187.394   178569.157
+700  cpREV+F+R8    87469.630    604 176147.259   906987.259   178548.975
+701  cpREV+F+R9    87468.891    606 176149.782   911833.782   178559.451
+Akaike Information Criterion:           JTT+F+R8
+Corrected Akaike Information Criterion: LG+G4
+Bayesian Information Criterion:         JTT+F+R8
+Best-fit model: JTT+F+R8 chosen according to BIC
+
+All model information printed to NBARC_align_clipkit.fasta.model.gz
+CPU time for ModelFinder: 8983.887 seconds (2h:29m:43s)
+Wall-clock time for ModelFinder: 9007.829 seconds (2h:30m:7s)
+Generating 1000 samples for ultrafast bootstrap (seed: 845638)...
+
+NOTE: 149 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -86541.202
+Optimal log-likelihood: -86541.140
+Site proportion and rates:  (0.029,0.066) (0.074,0.226) (0.123,0.403) (0.192,0.670) (0.266,1.076) (0.243,1.469) (0.068,2.022) (0.005,4.570)
+Parameters optimization took 1 rounds (11.346 sec)
+Computing ML distances based on estimated model parameters...
+Computing ML distances took 24.080005 sec (of wall-clock time) 24.079782 sec(of CPU time)
+WARNING: Some pairwise ML distances are too long (saturated)
+Computing RapidNJ tree took 0.007666 sec (of wall-clock time) 0.008470 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -87108.858
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 17.422 second
+Computing log-likelihood of 98 initial trees ... 57.264 seconds
+Current best score: -86541.140
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -86525.507
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -86493.780
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 4: -86486.582
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 5: -86485.924
+Iteration 10 / LogL: -86498.647 / Time: 0h:4m:52s
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 11: -86484.371
+Iteration 20 / LogL: -86499.276 / Time: 0h:7m:18s
+Finish initializing candidate tree set (20)
+Current best tree score: -86484.371 / CPU time: 397.059
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -86488.507 / Time: 0h:10m:9s (0h:28m:23s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 40: -86482.317
+Iteration 40 / LogL: -86482.317 / Time: 0h:12m:56s (0h:33m:10s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 41: -86480.333
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 43: -86479.720
+Iteration 50 / LogL: -86506.356 / Time: 0h:15m:46s (0h:29m:56s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 51: -86478.609
+Iteration 60 / LogL: -86487.236 / Time: 0h:18m:36s (0h:28m:41s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 66: -86475.145
+Iteration 70 / LogL: -86481.685 / Time: 0h:21m:26s (0h:29m:49s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 77: -86474.030
+Iteration 80 / LogL: -86481.773 / Time: 0h:24m:2s (0h:29m:30s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 81: -86472.524
+Iteration 90 / LogL: -86476.128 / Time: 0h:26m:44s (0h:27m:20s left)
+Iteration 100 / LogL: -86479.516 / Time: 0h:29m:8s (0h:23m:50s left)
+Iteration 110 / LogL: -86494.404 / Time: 0h:31m:42s (0h:20m:39s left)
+Iteration 120 / LogL: -86474.880 / Time: 0h:34m:14s (0h:17m:33s left)
+Iteration 130 / LogL: -86495.900 / Time: 0h:36m:44s (0h:14m:31s left)
+Iteration 140 / LogL: -86473.751 / Time: 0h:39m:7s (0h:11m:32s left)
+Iteration 150 / LogL: -86478.251 / Time: 0h:41m:34s (0h:8m:39s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 159: -86471.776
+Iteration 160 / LogL: -86483.288 / Time: 0h:44m:10s (0h:27m:30s left)
+Iteration 170 / LogL: -86482.620 / Time: 0h:46m:40s (0h:24m:34s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 178: -86471.105
+Iteration 180 / LogL: -86476.041 / Time: 0h:49m:8s (0h:26m:54s left)
+Iteration 190 / LogL: -86493.426 / Time: 0h:51m:34s (0h:24m:0s left)
+Iteration 200 / LogL: -86477.047 / Time: 0h:54m:5s (0h:21m:12s left)
+Iteration 210 / LogL: -86499.865 / Time: 0h:56m:43s (0h:18m:27s left)
+Iteration 220 / LogL: -86490.085 / Time: 0h:59m:10s (0h:15m:40s left)
+Iteration 230 / LogL: -86495.582 / Time: 1h:1m:43s (0h:12m:56s left)
+Iteration 240 / LogL: -86476.723 / Time: 1h:4m:6s (0h:10m:11s left)
+Iteration 250 / LogL: -86477.502 / Time: 1h:6m:30s (0h:7m:28s left)
+Iteration 260 / LogL: -86475.599 / Time: 1h:8m:53s (0h:4m:47s left)
+Iteration 270 / LogL: -86474.405 / Time: 1h:11m:16s (0h:2m:7s left)
+Refining ufboot trees with NNI 1 branch...
+100 samples done
+200 samples done
+300 samples done
+400 samples done
+500 samples done
+NOTE: 3.328 seconds to dump checkpoint file, increase to 67.000
+NOTE: 3.518 seconds to dump checkpoint file, increase to 71.000
+600 samples done
+NOTE: 3.587 seconds to dump checkpoint file, increase to 72.000
+700 samples done
+800 samples done
+900 samples done
+1000 samples done
+Total 1000 ufboot trees refined
+TREE SEARCH COMPLETED AFTER 279 ITERATIONS / Time: 2h:4m:32s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -86471.105
+2. Current log-likelihood: -86471.069
+3. Current log-likelihood: -86471.021
+4. Current log-likelihood: -86470.979
+5. Current log-likelihood: -86470.958
+Optimal log-likelihood: -86470.949
+Site proportion and rates:  (0.027,0.062) (0.071,0.212) (0.128,0.398) (0.186,0.663) (0.221,1.035) (0.268,1.398) (0.094,1.937) (0.005,4.831)
+Parameters optimization took 5 rounds (27.889 sec)
+BEST SCORE FOUND : -86470.949
+Creating bootstrap support values...
+Split supports printed to NEXUS file NBARC_align_clipkit.fasta.splits.nex
+Total tree length: 80.250
+
+Total number of iterations: 279
+CPU time used for tree search: 7342.474 sec (2h:2m:22s)
+Wall-clock time used for tree search: 7430.233 sec (2h:3m:50s)
+Total CPU time used: 7414.068 sec (2h:3m:34s)
+Total wall-clock time used: 7501.820 sec (2h:5m:1s)
+UFBoot trees printed to NBARC_align_clipkit.fasta.ufboot
+
+Computing bootstrap consensus tree...
+Reading input file NBARC_align_clipkit.fasta.splits.nex...
+287 taxa and 1792 splits.
+Consensus tree written to NBARC_align_clipkit.fasta.contree
+Reading input trees file NBARC_align_clipkit.fasta.contree
+Log-likelihood of consensus tree: -86474.295
+
+Analysis results written to: 
+  IQ-TREE report:                NBARC_align_clipkit.fasta.iqtree
+  Maximum-likelihood tree:       NBARC_align_clipkit.fasta.treefile
+  Likelihood distances:          NBARC_align_clipkit.fasta.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          NBARC_align_clipkit.fasta.splits.nex
+  Consensus tree:                NBARC_align_clipkit.fasta.contree
+  UFBoot trees:                  NBARC_align_clipkit.fasta.ufboot
+  Screen log file:               NBARC_align_clipkit.fasta.log
+
+Date and Time: Thu Nov  7 19:10:27 2024
